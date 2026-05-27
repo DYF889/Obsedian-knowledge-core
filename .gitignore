@@ -1,0 +1,47 @@
+# ============================================
+# Obsidian
+# ============================================
+
+# Workspace files — change every time you click around in Obsidian.
+# Ignoring these keeps your commit history clean.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+
+# Obsidian's local trash — recoverable deleted notes, not meant to sync.
+.trash/
+
+# Plugin caches and runtime state
+.obsidian/plugins/*/data.json.bak
+.obsidian/cache
+
+# ============================================
+# OS files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# Editor / temp files
+# ============================================
+*.tmp
+*.swp
+*.swo
+*.bak
