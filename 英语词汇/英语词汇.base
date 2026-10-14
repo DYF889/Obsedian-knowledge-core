@@ -1,0 +1,49 @@
+filters:
+  and:
+    - file.inFolder("英语词汇")
+    - file.ext == "md"
+    - 'file.name != "索引"'
+properties:
+  note.词性:
+    displayName: 词性
+  note.领域:
+    displayName: 领域
+  note.语体:
+    displayName: 语体
+  note.音标_英:
+    displayName: 英式音标
+  note.音标_美:
+    displayName: 美式音标
+  note.添加日期:
+    displayName: 添加日期
+views:
+  - type: table
+    name: 全部单词
+    order:
+      - file.name
+      - note.音标_美
+      - note.词性
+      - note.领域
+      - note.语体
+      - note.添加日期
+    sort:
+      - property: note.添加日期
+        direction: DESC
+  - type: table
+    name: 按领域
+    groupBy:
+      property: note.领域
+      direction: ASC
+    order:
+      - file.name
+      - note.词性
+      - note.音标_美
+  - type: table
+    name: 按词性
+    groupBy:
+      property: note.词性
+      direction: ASC
+    order:
+      - file.name
+      - note.领域
+      - note.音标_美
