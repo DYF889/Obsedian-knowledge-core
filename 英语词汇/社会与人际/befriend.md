@@ -1,7 +1,7 @@
 ---
 word: befriend
-音标_英: /bɪˈfrɛnd/
-音标_美: /bəˈfrɛnd/
+音标_英: /bɪˈfrend/
+音标_美: /bəˈfrend/
 词性: [verb]
 领域: 社会与人际
 语体: 书面通用
@@ -11,7 +11,7 @@ tags: [英语词汇, verb, 社会与人际]
 
 # befriend
 
-**英** /bɪˈfrɛnd/ · **美** /bəˈfrɛnd/ · *verb*
+**英** /bɪˈfrend/ · **美** /bəˈfrend/ · *verb*
 
 ## 中文释义
 
